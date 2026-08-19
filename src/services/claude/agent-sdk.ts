@@ -396,7 +396,7 @@ ${savedImagePaths.length > 0 ? 'Start by reading the attached screenshot(s), the
       prompt,
       options: {
         cwd: config.repoPath,
-        model: 'claude-sonnet-4-20250514',
+        model: 'claude-sonnet-4-6',
         tools: ['Read', 'Edit', 'Bash', 'Glob', 'Grep'],
         permissionMode: 'acceptEdits',
         maxBudgetUsd: maxBudget,
